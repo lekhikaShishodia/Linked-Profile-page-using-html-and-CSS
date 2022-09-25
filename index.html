@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="position:relative">
+    <!-- Navbar starts -->
+    <!-- Navbar is divided into 3 parts : leftNav, centerNav, rightNav -->
+    <div class="navbar sticky1" >
+        <!-- Left Navigation Bar -->
+        <div class="leftNav">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search"></i>
+            <img src="LinkedIn logo.png" alt="" height="40px" width="40px">
+        </div>
+        <!-- Right Navigation Bar -->
+        <div class="centerNav">
+            <div class="centerNavIcons">
+                <div class="home">
+                    <a href="index.html" target="_self#"><i class="fa fa-home"><br> Home</i></a>
+                </div>
+                <div class="Mynetwork">
+                    <a href="#"><i class="fa fa-users"><br> My Network</i></a>
+                </div>
+                <div class="jobs">
+                    <a href="#"><i class="fa fa-suitcase"><br>Jobs</i></a>
+                </div>
+                <div class="messaging">
+                    <a href="#"><i class="fa fa-commenting"><br>Messaging</i></a>
+                </div>
+                <div class="notifications">
+                    <a href="#"><i class="fa fa-bell"><br>Notifications</i></a>
+                </div>
+                <div class="Me">
+                    <a href="#"><i class="fa fa-user-circle"><br>Me <i class="fa fa-sort-desc"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Right Navigation Bar -->
+        <div class="rightNav">
+            <div class="work">
+                <a href="#"><i class="fa fa-th"><br>Work <i class="fa fa-sort-desc"></i></i></a>
+            </div>
+            <div class="links">
+                <a href="#">Get Hired faster</a><br>
+                <a href="#">Try Premium Free</a>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar ends -->
+
+    <!-- Container Starts   -->
+    <!-- Container contains left, center and right i.e 3 parts -->
+    <div class="Container">
+
+        <div class="left">
+            <div class="left1">
+                <!-- left1 is first the section of left -->
+                <div class="image-box">
+                    <!-- This section is created using two empty div's and thirt div 'profile' containig the profile image and it is placed at the junction of two empty 
+                        div's with help of z-index -->
+                    <div class="emp1" style="background-image:linear-gradient(to right, grey,white)"></div>
+                    <div class="emp2"></div>
+                    <div class="profile"><img src="LinkedIn logo.png" alt="" width="50px" height="50px"></div>
+                </div>
+                
+                <div class="left1a">
+                    <div class="left1a-links">
+                        <p class="link1"><a href="#">Welcome, Lekhika!</a></p>
+                        <p class="link2"><a href="#">Add a photo</a></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="left1b">
+                    <p style="padding:3px"> Who's viewed your profile<span style="float:right; color:blue">12</span></p>
+                    <p style="padding:3px"> Impressions of your post<span style="float:right; color: blue">227</span>
+                    </p>
+                </div>
+                <hr>
+                <div class="left1c">
+                    <p> Access exclusive tools & insights <br>
+                        <button type="button"
+                            style="background-color:rgb(255, 230, 0); width: 12px;height: 12px; border:1px solid yellow"></button>
+                        <a href="#">Get Hired Faster. Try Premium Free</a>
+                    </p>
+                </div>
+                <hr>
+                <div class="left1d">
+                    <p><i class="fa fa-bookmark-o" aria-hidden="true"></i>My Items</p>
+                </div>
+            </div>
+            <!-- left2 is the second section of left -->
+            <div class="left2 sticky2">
+                <div class="lef2a">
+                    <div class="recents">
+                        <h4>Recent</h4>
+                        <a href="#"><i class="fa fa-users"></i>Java Developers Community</a>
+                        <a href="#"><i class="fa fa-users"></i>React Native</a>
+                        <a href="#"><i class="fa fa-users"></i>React JS, Angular, VueJS</a>
+                        <a href="#"><i class="fa fa-users"></i>Software/Technology: Marketing</a>
+                    </div>
+                </div>
+                
+                <div class="left2b">
+                    <div class="groups">
+                        <h4>Groups</h4>
+                        <a href="#"><i class="fa fa-users"></i>Java Developers Community</a>
+                        <a href="#"><i class="fa fa-users"></i>React Native</a>
+                        <a href="#"><i class="fa fa-users"></i>React JS, Angular, VueJS</a>
+                        <a href="#"><i class="fa fa-users"></i>Software/Technology: Marketing</a>
+                        <div class="show-more">
+                            Show more <i class="fa fa-sort-desc"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="center">
+<!-- Div to share a new post on linked -->
+            <div class="start-a-post">
+                <div class="profileimg">
+                    <img src="./avatar.png" alt="">
+                </div>
+                <div class="input-text">
+                    <input type="text" name="" id="" placeholder="Start a post">
+                </div>
+                <div class="whats-new">
+                    <a href="#"> <i class="fa fa-picture-o" aria-hidden="true" style="color:blue"></i> &nbspPhoto</a>
+                    <a href="#"> <i class="fa fa-play" aria-hidden="true" style="color:green"></i>&nbsp Video</a>
+                    <a href="#"> <i class="fa fa-calendar" aria-hidden="true" style="color:orange"></i> &nbspEvent</a>
+                    <a href="#"> <i class="fa fa-pencil-square-o" aria-hidden="true" style="color:orangered"></i>
+                        &nbspWrite Article</a>
+                </div>
+            </div>
+<!-- Div containing feed -->
+            <div class="feed">
+                <div class="profileimg">
+                    <img src="./avatar.png" alt="">
+                </div>
+                <div class="input-text">
+                    <h3>React JS, Angular JS, Vue JS, Node JS | UI & Full Stack Developer</h3>
+                    <p>Anshuman Dewan 2nd </p>
+                    <p>11h </p>
+                </div>
+                <div class="para">
+                    <p>#java VS #python</p>
+                    <p>Let's see who wins</p>
+                </div>
+                <div class="post-image">
+                    <img src="./post.gif" alt="">
+                </div>
+                <div class="publicity">
+                    <span style="float:left"></span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                    5 Likes</span>
+                    <span style="float:right">2 comments</span>
+
+                </div>
+                <div class="perform">
+                    <a href="#"> <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Like</a>
+                    <a href="#"> <i class="fa fa-commenting" aria-hidden="true"></i>Comment</a>
+                    <a href="#"> <i class="fa fa-share" aria-hidden="true"></i>Share</a>
+                    <a href="#"> <i class="fa fa-paper-plane" aria-hidden="true"></i>Send</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="profileimg">
+                    <img src="./avatar.png" alt="">
+                </div>
+                <div class="input-text">
+                    <h3>React JS, Angular JS, Vue JS, Node JS | UI & Full Stack Developer</h3>
+                    <p>Anshuman Dewan 2nd </p>
+                    <p>11h </p>
+                </div>
+                <div class="para">
+                    <p>#java VS #python</p>
+                    <p>Let's see who wins</p>
+                </div>
+                <div class="post-image">
+                    <img src="./post.gif" alt="">
+                </div>
+                <div class="publicity">
+                    <span style="float:left"></span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                    5</span>
+                    <span style="float:right">2 comments</span>
+
+                </div>
+                <div class="perform">
+                    <a href="#"> <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Like</a>
+                    <a href="#"> <i class="fa fa-commenting" aria-hidden="true"></i>Comment</a>
+                    <a href="#"> <i class="fa fa-share" aria-hidden="true"></i>Share</a>
+                    <a href="#"> <i class="fa fa-paper-plane" aria-hidden="true"></i>Send</a>
+                </div>
+            </div>
+
+
+        </div>
+
+<!-- Right part of container -->
+        <div class="right">
+<!-- First section of right container -->
+            <div class="right1">
+                <h3 class="heading">LinkedIn News <i class="fa fa-info-circle" aria-hidden="true"></i></h3>
+                <div class="news">
+                    <ul type="circle">
+                        <li>
+                            <a href="#" class="news-link">
+                                <h3>Cyrus Mistry dies at 54</h3>
+                                <p>17h ago <i class="fa fa-circle" aria-hidden="true"></i> 12,976 readers</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="news-link">
+                                <h3>Starbucks announces its new CEO</h3>
+                                <p>17h ago <i class="fa fa-circle" aria-hidden="true"></i> 30,275 readers</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="news-link">
+                                <h3>What's driving India's ecomnomy?</h3>
+                                <p>9h ago <i class="fa fa-circle" aria-hidden="true"></i> 1,648 readers</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="news-link">
+                                <h3>Gautam Adani is world's third richest</h3>
+                                <p>17h ago <i class="fa fa-circle" aria-hidden="true"></i> 25,982 readers</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="news-link">
+                                <h3>Doom and gloom for Bollywood</h3>
+                                <p>17h ago <i class="fa fa-circle" aria-hidden="true"></i> 8,411readers</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="show-more">
+                    Show more <i class="fa fa-sort-desc"></i>
+                </div>
+            </div>
+<!-- Second Section of right container -->
+            <div class="right2 sticky2">
+
+                <div class="add">
+                    Ad <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                </div>
+                <div class="adddetails">
+                    <p>You've got the skills, we've got the opportunities</p>
+                    <img src="./aramco.png" alt="">
+                    <p> Lekhika, <span style="font-weight:bold;">aramco</span> is hiring!</p>
+                    <button type="button">Folllow</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
